@@ -1,0 +1,26 @@
+.header{
+  width: 100%;
+  padding: 0.3125rem 0.125rem; /* ALT + Z CONVERTE PRA REM*/
+  background-color: var(--primary-color);
+
+  /* RESPONSIVO */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* RESPONSIVO*/
+/* A PARTIR DO MOMENTO EM QUE A TELA ESTIVER ABAIXO DE 760PX*/
+/* VAI ACONTECER*/
+@media screen and (max-width: 760px){
+.header{
+  justify-content: center;
+}
+}
+
+
+
+
